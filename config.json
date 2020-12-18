@@ -1,0 +1,412 @@
+{
+    "enabled": true,
+    "markTarget": {
+        "enabled": false,
+        "Alliance": {
+            "0": [],
+            "1": [],
+            "2": []
+        },
+        "Enemy": {
+            "0": [
+                6,
+                7
+            ],
+            "1": [],
+            "2": []
+        }
+    },
+    "skills": {
+        "4": {
+            "20": {
+                "enabled": true,
+                "name": "Flaming Barrage",
+                "target": [
+                    "enemy-all",
+                    "boss",
+                    "npc",
+                    "enemy-auto"
+                ],
+                "lockNpc": [
+                    "4_5011",
+                    "38_35",
+                    "57_33",
+                    "51_7011",
+                    "10_99",
+                    "52_9050"
+                ],
+                "type": "lockon",
+                "dist": 35,
+                "maxTarget": 1,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "21": {
+                "enabled": true,
+                "name": "Nerve Exhaustion",
+                "target": [
+                    "enemy-class",
+                    "enemy-all",
+                    "enemy-auto"
+                ],
+                "lockClass": [
+                    6,
+                    7
+                ],
+                "type": "lockon",
+                "dist": 30,
+                "maxTarget": 4,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "22": {
+                "enabled": true,
+                "name": "Burning Breath",
+                "target": [
+                    "enemy-class",
+                    "enemy-all",
+                    "enemy-auto"
+                ],
+                "lockClass": [
+                    6,
+                    7
+                ],
+                "type": "lockon",
+                "dist": 30,
+                "maxTarget": 1,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "23": {
+                "enabled": true,
+                "name": "Time Gyre",
+                "target": [
+                    "enemy-class",
+                    "enemy-all",
+                    "enemy-auto"
+                ],
+                "lockClass": [
+                    6,
+                    7
+                ],
+                "type": "lockon",
+                "dist": 30,
+                "maxTarget": 3,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            }
+        },
+        "5": {
+            "2": {
+                "enabled": true,
+                "name": "Arrow Volley",
+                "target": [
+                    "enemy-all",
+                    "boss",
+                    "npc",
+                    "enemy-auto"
+                ],
+                "lockNpc": [
+                    "4_5011",
+                    "38_35",
+                    "57_33",
+                    "51_7011",
+                    "10_99",
+                    "52_9050"
+                ],
+                "type": "lockon",
+                "dist": 35,
+                "maxTarget": 4,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            }
+        },
+        "6": {
+            "19": {
+                "enabled": true,
+                "name": "Focus Heal",
+                "target": [
+                    "member-heal"
+                ],
+                "type": "lockon",
+                "hpCutoff": 97,
+                "dist": 35,
+                "maxTarget": 4,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "30": {
+                "enabled": true,
+                "name": "Plague of Exhaustion",
+                "target": [
+                    "enemy-inbuff",
+                    "enemy-class",
+                    "boss",
+                    "npc",
+                    "enemy-auto"
+                ],
+                "lockNpc": [
+                    "4_5011",
+                    "38_35",
+                    "57_33",
+                    "51_7011",
+                    "10_99",
+                    "52_9050"
+                ],
+                "inBuff": [
+                    10155130,
+                    401705
+                ],
+                "lockClass": [
+                    6,
+                    7
+                ],
+                "type": "lockon",
+                "dist": 30,
+                "maxTarget": 4,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "33": {
+                "enabled": true,
+                "name": "Ishara Lullaby",
+                "target": [
+                    "enemy-class",
+                    "enemy-all",
+                    "enemy-auto"
+                ],
+                "lockClass": [
+                    6,
+                    7
+                ],
+                "type": "lockon",
+                "dist": 30,
+                "maxTarget": 1,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "35": {
+                "enabled": true,
+                "name": "Energy Stars",
+                "target": [
+                    "enemy-all",
+                    "boss",
+                    "npc",
+                    "enemy-auto"
+                ],
+                "lockNpc": [
+                    "4_5011",
+                    "38_35",
+                    "57_33",
+                    "51_7011",
+                    "10_99",
+                    "52_9050"
+                ],
+                "type": "lockon",
+                "dist": 25,
+                "maxTarget": 1,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "37": {
+                "enabled": true,
+                "name": "Healing Immersion",
+                "target": [
+                    "member-heal"
+                ],
+                "type": "lockon",
+                "hpCutoff": 97,
+                "dist": 35,
+                "maxTarget": 1,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "41": {
+                "enabled": true,
+                "name": "Divine Vitality",
+                "target": [
+                    "member-stuck"
+                ],
+                "type": "lockon",
+                "dist": 35,
+                "maxTarget": 4,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            }
+        },
+        "7": {
+            "5": {
+                "enabled": true,
+                "name": "Titanic Favor",
+                "target": [
+                    "member-heal"
+                ],
+                "type": "lockon",
+                "hpCutoff": 97,
+                "dist": 35,
+                "maxTarget": 4,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "9": {
+                "enabled": true,
+                "name": "Arun Cleansing Touch",
+                "target": [
+                    "member-clean"
+                ],
+                "type": "lockon",
+                "dist": 35,
+                "maxTarget": 4,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "24": {
+                "enabled": true,
+                "name": "Volley of Curses",
+                "target": [
+                    "enemy-class",
+                    "enemy-all",
+                    "boss",
+                    "npc",
+                    "enemy-auto"
+                ],
+                "lockNpc": [
+                    "4_5011",
+                    "38_35",
+                    "57_33",
+                    "51_7011",
+                    "10_99",
+                    "52_9050"
+                ],
+                "lockClass": [
+                    6,
+                    7
+                ],
+                "type": "lockon",
+                "dist": 30,
+                "maxTarget": 4,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "28": {
+                "enabled": true,
+                "name": "Sonorous Dreams",
+                "target": [
+                    "enemy-class",
+                    "enemy-all",
+                    "enemy-auto"
+                ],
+                "lockClass": [
+                    6,
+                    7
+                ],
+                "type": "lockon",
+                "dist": 30,
+                "maxTarget": 1,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "30": {
+                "enabled": true,
+                "name": "Curse of Exhaustion",
+                "target": [
+                    "enemy-class",
+                    "enemy-all",
+                    "enemy-auto"
+                ],
+                "lockClass": [
+                    6,
+                    7
+                ],
+                "type": "lockon",
+                "dist": 30,
+                "maxTarget": 4,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "31": {
+                "enabled": true,
+                "name": "Curse of Confusion",
+                "target": [
+                    "enemy-class",
+                    "enemy-all",
+                    "enemy-auto"
+                ],
+                "lockClass": [
+                    6,
+                    7
+                ],
+                "type": "lockon",
+                "dist": 30,
+                "maxTarget": 4,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "32": {
+                "enabled": true,
+                "name": "Mire",
+                "target": [
+                    "enemy-class",
+                    "enemy-all",
+                    "enemy-auto"
+                ],
+                "lockClass": [
+                    6,
+                    7
+                ],
+                "type": "lockon",
+                "dist": 30,
+                "maxTarget": 4,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            },
+            "41": {
+                "enabled": true,
+                "name": "Contagion",
+                "target": [
+                    "enemy-class",
+                    "enemy-all",
+                    "boss",
+                    "npc",
+                    "enemy-auto"
+                ],
+                "lockNpc": [
+                    "4_5011",
+                    "38_35",
+                    "57_33",
+                    "51_7011",
+                    "10_99",
+                    "52_9050"
+                ],
+                "lockClass": [
+                    6,
+                    7
+                ],
+                "type": "lockon",
+                "dist": 30,
+                "maxTarget": 1,
+                "lockSpeed": 5,
+                "castSpeed": 10,
+                "autoCast": true
+            }
+        }
+    }
+}
