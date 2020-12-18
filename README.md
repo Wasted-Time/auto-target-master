@@ -1,6 +1,5 @@
 # Auto-Target
 Auto-Target and finish your skill.</br>
-**Not work in duel mode**</br>
 </br>
 ![](autoTarget.gif)</br>
 # Feature
